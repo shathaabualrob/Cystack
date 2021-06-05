@@ -1,0 +1,15 @@
+The Task :
+We need to import a CSV File into our DB (MYSQL) using python script, the python script will connect to Company  DB and insert all lines to the TestImport table, the CSV file will be uploaded using a web page so you need to Design & program it.
+In addition in the web page, we need you to create a simple table this table will contain the Date for the uploaded file, number of lines for this file (You must get a number of lines from DB) and file name.
+
+The web page will connect to python script using API (FLASK API).
+For web page, you can use anything for Design (HTML,css, js ,bootstrap, vue ..etc)
+for Web backend you MUST use PHP Laravel.
+You need to create the DB, table, and columns (You have options to create it using
+code or manually ).
+For Design - Front End we strongly recommend using react js
+End-user will go to ==> web page then ==> he will upload a CSV file.
+
+the web page (using laravel ) will connect to DB & send the CSV file through Flask API (python), the python script will insert data into DB ..etc
+
+After uploading the CSV file, we will see the file name, date, number of lines on the table in another tab/web page (Using laravel)
